@@ -22,6 +22,22 @@ Weitere Packages die für NeoVim in dieser Konfiguration installiert sein sollte
 ```
 sudo pacman -S zathura
 sudo pacman -S npm
+sudo npm install -g neovim
+sudo pacman -S ripgrep
+sudo pacman -S latexmk
+sudo pacman -S fd
+sudo pacman -S biber
+sudo pacman -S ruby
+gem install neovim
+sudo pacman -S wget
+sudo pacman -S go
+sudo pacman -S php
+sudo pacman -S jdk-openjdk
+sudo pacman -S julia
+sudo pacman -S cargo
+sudo pacman -S composer
+sudo pacman -S luarocks
+sudo pacman -S perl
 ```
 Für zathura muss die entsprechende `zathurarc` in `~/.config/zathura` 
 
