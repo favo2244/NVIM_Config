@@ -18,6 +18,14 @@ Dazu sind folgende Schritte (in Arch Linux) nötig:
 
 Anschließend sollte Neovim installiert sein und kann über `nvim` aufgerufen werden.
 
+Weitere Packages die für NeoVim in dieser Konfiguration installiert sein sollten:
+```
+sudo pacman -S zathura
+sudo pacman -S npm
+```
+Für zathura muss die entsprechende `zathurarc` in `~/.config/zathura` 
+
+
 ## .config Files
 
 Vorrausgesetzt, das [geforkte Repository](https://github.com/favo2244/.config) ist synchron mit dem [Upstream](https://github.com/benbrastmckie/.config) kann der Pull durchgeführt werden:
