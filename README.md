@@ -38,6 +38,7 @@ sudo pacman -S cargo
 sudo pacman -S composer
 sudo pacman -S luarocks
 sudo pacman -S perl
+sudo pacman -S zathura-pdf-mupdf
 ```
 Für zathura muss die entsprechende `zathurarc` in `~/.config/zathura` 
 
